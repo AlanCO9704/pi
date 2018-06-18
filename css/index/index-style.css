@@ -1,0 +1,33 @@
+#contentIndex{
+  background-color: rgb(69,90,100, .92);
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+}
+
+.padding-s {
+  padding: 15px;
+}
+
+h3{
+  font-weight: 600;
+}
+
+input.btn{
+  margin: auto;
+  display: block;
+}
+
+input {
+  border: none !important;
+  border-radius: 2px !important;
+}
+
+.back{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  background-image: url("../../assets/img/background/background-index.jpg");
+  background-size: cover;
+}

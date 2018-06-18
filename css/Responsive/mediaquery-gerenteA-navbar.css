@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px) {
+    #btn-toggler {
+        display: block;
+    }
+    #btn-g {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #btn-toggler {
+        display: none;
+    }
+    #btn-g {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    #imglogo2 {
+        display: block;
+        ;
+    }
+    #imglogo {  
+        display: none;
+    }
+}
+
+@media screen and (min-width: 499px) {
+    #imglogo2 {
+        display: none;
+    }
+}
