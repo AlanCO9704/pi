@@ -1,0 +1,179 @@
+section {
+    padding-top: 76px;
+    padding-bottom: 60px;
+    min-height: 100vh;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-space {
+    padding: 15px;
+    background-color: #cde0fe;
+    margin: 0px !important;
+}
+
+.bg-material-morado {
+    background-color: #AB47BC;
+    margin: 0px;
+}
+
+button.bg-material-morado:hover {
+    background-color: #7B1FA2;
+
+}
+
+.bg-material-azul {
+    background-color: #0288d1;
+}
+
+.bg-material-azul-light {
+    background-color: #29B6F6;
+}
+
+.bg-material-blue-gray{
+    background-color: #b0bec5;
+}
+.bg-material-blue-gray:hover{
+    background-color: #78909c;
+    color: white;
+}
+
+.bg-material-cyan{
+    background-color: #00bcd4;
+}
+
+.bg-material-yellow {
+    background-color: #ffd54f;
+}
+
+.imgGallery {
+    margin: auto;
+    width: 100%;
+}
+
+.shadow-box-standar:hover {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow-box-standar-state {
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow-box-standar-small {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.19), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.bg-grey {
+    background-color: #9099a2;
+}
+
+div.bg-grey {
+    margin: 0px;
+}
+
+form.form-inline {
+    margin: 0px 12px;
+}
+
+.modal-dialog-centered {
+    max-width: 800px;
+    margin: auto;
+}
+
+.img-modal {
+    max-width: 100%;
+}
+
+.bg-grey-tab {
+    background-color: #f1f3f3;
+    height: 100%;
+}
+
+.bg-dark{
+    background-color: #37474F !important;
+}
+
+.bg-primary{
+    background-color: #039BE5 !important;
+}
+
+.btn-margin {
+    margin: 10px 5px;
+}
+
+.btn-success{
+    background-color: #009688 ;
+    border: none;
+}
+
+.btn-success:hover{
+    background-color: #00897B ;
+    color: white;
+    border: none;
+}
+
+.btn-secondary-blue {
+    background-color: rgb(25,118,210);
+    color: white;
+}
+
+.btn-secondary-blue:hover {
+    background-color: rgb(100,181,246);
+}
+
+.dropdown {
+    margin: 20px;
+}
+
+.dropdown-menu {
+    max-height: 20rem;
+    overflow-y: auto;
+}
+
+.block {
+    display: block;
+}
+
+.form-check {
+    margin: 5px 10px;
+}
+
+div.modal {
+    padding-right: 17px !important;
+    padding-left: 17px !important;
+}
+
+.textTile {
+    padding: 7px;
+    color: white;
+    margin-bottom: 1rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.textTile input.text-center {
+    margin: 3px 0px;
+}
+
+input.text-center {
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    font-size: 17px;
+}
+
+.in-no-decoration {
+    border: none;
+    background-color: transparent;
+}
+
+input.standar.text-center {
+    color: #FFEB3B;
+    font-weight: 600;
+}

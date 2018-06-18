@@ -1,0 +1,161 @@
+#sidebarMenu {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    height: 100vh;
+}
+
+#wrapper{
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-collapse {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    max-width: 300px;
+    height: 100%;
+}
+
+.navbar-collapse.collapsing {
+    height: auto;
+    -webkit-transition: left 0.2s ease;
+    -o-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+    transition: left 0.2s ease;
+    left: -100%;
+}
+
+.navbar-collapse.show {
+    left: 0;
+    -webkit-transition: left 0.2s ease-in;
+    -o-transition: left 0.2s ease-in;
+    -moz-transition: left 0.2s ease-in;
+    transition: left 0.2s ease-in;
+}
+
+ul li {
+    border-left: 4px solid #277AFC;
+    width: 100%;
+}
+
+a.boton {
+    text-align: left !important;
+    text-decoration: none !important;
+    display: block;
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+
+}
+
+li a:hover {
+    background-color: #4b596c;
+    color: black;
+}
+
+div button.navbar-toggler {
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 10px;
+    height: 56px;
+}
+
+.bg-oscuro {
+    background-color: #000000;
+    padding: 0px;
+}
+
+.bg-azul-oscuro{
+    background-color: #000099;
+    padding: 0px;
+}
+
+.bg-gris{
+    background-color: #c6c6c6;
+    padding: 0px;
+}
+
+.bg-material-indigo{
+    background-color: #5C6BC0;
+    padding: 0px;
+}
+
+.bg-material-azul-dark{
+    background-color: #1A237E;
+}
+
+/*Buttons*/
+.btn-gris{
+    background-color: #c6c6c6;
+}
+
+.btn-azul-oscuro{
+    background-color: #5C6BC0;
+}
+
+button.bg-material-azul-dark {
+    height: 56px;
+    color: white;
+}
+
+button.btn-gris {
+    height: 56px;
+    color: black;
+}
+
+button.btn-azul-oscuro{
+    height: 56px;
+    color: white;
+}
+
+button.bg-oscuro {
+    height: 56px;
+    color: white;
+}
+
+#btnclsesion{
+    height: 56px;
+    margin: 0px;
+    color: white;
+}
+
+/* hover */
+
+button.bg-material-azul-dark:hover{
+    background-color: rgb(87, 90, 126);
+    color: white;
+}
+
+button.bg-oscuro:hover {
+    background-color: dodgerblue;
+}
+
+button.btn-gris:hover {
+    background-color: black;
+    color: white;
+}
+
+button.btn-azul-oscuro:hover{
+    background-color: #1aa3ff;
+}
+
+button.navbar-toggler {
+    border-radius: 0px;
+}
+
+nav.navbar {
+    margin: 0px;
+    height: 56px;
+    padding: 0px;
+}
+
+
+.no-decoration{
+    text-decoration: none !important;
+}

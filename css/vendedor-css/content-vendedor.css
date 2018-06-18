@@ -1,0 +1,58 @@
+#div-tabInfo{
+    background-color: #f1f3f3;
+    height: 100%;
+}
+input.content-in{
+    font-weight: 500px !important;
+    color: white;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: #f4511e;
+}
+
+.nav-tabs .nav-link {
+    background-color: #78909c;
+}
+
+input.bg-material-blue-gray{
+    background-color: #b0bec5;
+    font-weight: 600;
+}
+
+input.bg-material-cyan:hover{
+    background-color: #006064;
+}
+
+input.btn.btn-block.centered-t.bg-material-blue-gray {
+    margin-top: 10px;
+}
+
+input.btn.btn-block.centered-t.bg-material-cyan {
+    margin-top: 10px;
+}
+
+label.text-center{
+    font-weight: 600;
+}
+
+input.bg-material-cyan{
+    background-color: #00bcd4;
+    color: white;
+    font-weight: 600;
+}
+
+.dropdown{
+    margin: 0px !important;
+}
+
+div.dropdown.bootstrap-select{
+    width: 100% !important;
+    z-index: 1;
+}
+
+select:disabled{
+    background-color: #B0BEC5 !important;
+    color: rgb(138, 142, 145) !important;
+    border: none !important;
+}
